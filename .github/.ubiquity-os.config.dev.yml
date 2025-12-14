@@ -1,0 +1,12 @@
+plugins:
+  ubiquity-os-marketplace/command-codex@fix/action-entry:
+    with:
+      allowedAuthorAssociations:
+        - OWNER
+        - MEMBER
+        - COLLABORATOR
+      requireExplicitInvocation: true
+      denyForkPRs: true
+      sandbox: workspace-write
+      draftPr: true
+      passAuthTokenToCodex: false
