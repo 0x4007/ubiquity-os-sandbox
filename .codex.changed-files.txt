@@ -1,0 +1,5 @@
+?? .codex.changed-files.txt
+?? .codex.events.jsonl
+?? .codex.last-message.md
+?? .codex.prompt.txt
+?? TEST.md
