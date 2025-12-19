@@ -72,6 +72,7 @@ tcrHtmlConfig: &tcrHtmlConfig
 plugins:
   ubiquity-os-marketplace/command-ask@development:
   ubiquity-os-marketplace/command-ping@development:
+  ubiquity-os-marketplace/command-smoke:
   ubiquity-os-marketplace/command-config@feat/ubiquity-ai:
   https://command-query-development.deno.dev:
     with:
