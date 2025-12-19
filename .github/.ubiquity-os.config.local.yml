@@ -223,4 +223,5 @@ plugins:
   https://daemon-xp-development.deno.dev:
 
   http://127.0.0.1:9090:
+  ubiquity-os-marketplace/daemon-planner@development:
 # hello world plugin
