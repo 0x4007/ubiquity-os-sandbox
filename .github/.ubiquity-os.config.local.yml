@@ -155,6 +155,7 @@ plugins:
         - COLLABORATOR
         - MEMBER
         - OWNER
+  ubiquity-os-marketplace/daemon-planner@development:
   https://daemon-pricing-development.deno.dev:
     with:
       labels:
