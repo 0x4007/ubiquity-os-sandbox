@@ -166,7 +166,6 @@ plugins:
         excludeRepos: []
       shouldFundContributorClosedIssue: false
 
-  ubiquity-os-marketplace/personal-agent-bridge@codex/concurrent-20251222:
   ubiquity-os-marketplace/text-conversation-rewards@codex/concurrent-20251222:
     with:
       rewards:
