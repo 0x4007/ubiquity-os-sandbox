@@ -20,19 +20,6 @@ teamMembersOnly: &teamMembersOnly
   - OWNER
   - MEMBER
   - ADMIN
-timeLabels: &timeLabels
-  - name: "Time: <15 Minutes"
-    collaboratorOnly: false
-  - name: "Time: <1 Hour"
-    collaboratorOnly: false
-  - name: "Time: <2 Hours"
-    collaboratorOnly: false
-  - name: "Time: <4 Hours"
-    collaboratorOnly: false
-  - name: "Time: <1 Day"
-    collaboratorOnly: false
-  - name: "Time: <1 Week"
-    collaboratorOnly: false
 priorityLabels: &priorityLabels
   - name: "Priority: 0 (Regression)"
     collaboratorOnly: false
@@ -156,10 +143,9 @@ plugins:
         - COLLABORATOR
         - MEMBER
         - OWNER
-  https://daemon-pricing-development.deno.dev:
+  0x4007-ubiquity-os/daemon-pricing@codex/concurrent-20251222:
     with:
       labels:
-        time: *timeLabels
         priority: *priorityLabels
       basePriceMultiplier: 3
       globalConfigUpdate:
