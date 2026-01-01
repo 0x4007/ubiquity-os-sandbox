@@ -143,6 +143,15 @@ plugins:
         - COLLABORATOR
         - MEMBER
         - OWNER
+  0x4007-ubiquity-os/daemon-hotfix@codex/concurrent-20251222:
+    with:
+      enabled: true
+      modes:
+        - issue
+      allowWorkflowEvents: true
+      issueLabels:
+        - bug
+        - autofix
   0x4007-ubiquity-os/daemon-pricing@codex/concurrent-20251222:
     with:
       labels:
