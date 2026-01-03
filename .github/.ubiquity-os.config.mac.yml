@@ -121,14 +121,7 @@ plugins:
       globalConfigUpdate:
         excludeRepos: []
       shouldFundContributorClosedIssue: false
-  # ubiquity-os-marketplace/daemon-pull-review@codex/concurrent-20251222:
-  #   with:
-  #     openRouterAiModel: google/gemini-2.5-flash
-  #     openRouterBaseUrl: https://openrouter.ai/api/v1
-  #     tokenLimit:
-  #       context: 200000
-  #       completion: 4096
-  ubiquity-os-marketplace/personal-agent-bridge@codex/concurrent-20251222:
+
   ubiquity-os-marketplace/text-vector-embeddings@codex/concurrent-20251222:
     with:
       dedupeMatchThreshold: 0.95
