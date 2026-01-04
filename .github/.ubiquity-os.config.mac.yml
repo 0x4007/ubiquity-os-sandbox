@@ -2,7 +2,7 @@ imports:
   - 0x4007-ubiquity-os/.ubiquity-os@tcr
 plugins:
   0x4007/personal-agent:
-  0x4007/daemon-hotfix:
+  0x4007-ubiquity-os/daemon-hotfix:
   http://127.0.0.1:9090: # hello world plugin
   https://daemon-xp-development.deno.dev:
   ubiquity-os-marketplace/command-ask@codex/concurrent-20251222:
