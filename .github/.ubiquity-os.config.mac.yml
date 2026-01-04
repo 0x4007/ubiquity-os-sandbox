@@ -1,6 +1,7 @@
 imports:
   - 0x4007-ubiquity-os/.ubiquity-os@tcr
 plugins:
+  0x4007/personal-agent@development:
   ubiquity-os-marketplace/command-ask@codex/concurrent-20251222:
   ubiquity-os-marketplace/command-config@codex/concurrent-20251222:
   https://command-query-development.deno.dev:
