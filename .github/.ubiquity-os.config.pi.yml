@@ -1,2 +1,2 @@
-imports:
-  - 0x4007-ubiquity-os/ubiquity-os-sandbox@mac
+plugins:
+  0x4007/personal-agent:
