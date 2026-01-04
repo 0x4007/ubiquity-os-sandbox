@@ -2,11 +2,23 @@ imports:
   - 0x4007-ubiquity-os/.ubiquity-os@tcr
 plugins:
   0x4007/personal-agent@development:
+  http://127.0.0.1:9090: # hello world plugin
+  https://daemon-xp-development.deno.dev:
   ubiquity-os-marketplace/command-ask@codex/concurrent-20251222:
   ubiquity-os-marketplace/command-config@codex/concurrent-20251222:
+  ubiquity-os-marketplace/daemon-spec-rewriter@codex/concurrent-20251222:
   https://command-query-development.deno.dev:
     with:
       allowPublicQuery: true
+  https://command-wallet-development.deno.dev:
+    with:
+      registerWalletWithVerification: false
+  ubiquity-os-marketplace/text-vector-embeddings@codex/concurrent-20251222:
+      with:
+        dedupeMatchThreshold: 0.95
+        dedupeWarningThreshold: 0.8
+        jobMatchingThreshold: 0.8
+        alwaysRecommend: 0
   https://command-start-stop-develop.deno.dev:
     with:
       reviewDelayTolerance: 3 Days
@@ -49,9 +61,7 @@ plugins:
         usdPriceMax:
           contributor: -1
           collaborator: Infinity
-  https://command-wallet-development.deno.dev:
-    with:
-      registerWalletWithVerification: false
+
   ubiquity-os-marketplace/daemon-disqualifier@codex/concurrent-20251222:
     with:
       warning: 7 days
@@ -123,15 +133,4 @@ plugins:
         excludeRepos: []
       shouldFundContributorClosedIssue: false
 
-  ubiquity-os-marketplace/text-vector-embeddings@codex/concurrent-20251222:
-    with:
-      dedupeMatchThreshold: 0.95
-      dedupeWarningThreshold: 0.75
-      jobMatchingThreshold: 0.8
-      alwaysRecommend: 0
-  ubiquity-os-marketplace/daemon-spec-rewriter@codex/concurrent-20251222:
-
-  https://daemon-xp-development.deno.dev:
-
-  http://127.0.0.1:9090:
-# hello world plugin
+  
