@@ -1,2 +1,4 @@
 plugins:
   0x4007/personal-agent@development:
+    runsOn:
+      - issue_comment.created
