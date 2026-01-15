@@ -1,7 +1,7 @@
 imports:
   - ubiquity-os-marketplace/.ubiquity-os@dev
-plugins:
-  0x4007/personal-agent:
-    with: {}
-    runsOn:
-      - issue_comment.created
+# plugins:
+  # 0x4007/personal-agent:
+  #   with: {}
+  #   runsOn:
+  #     - issue_comment.created
